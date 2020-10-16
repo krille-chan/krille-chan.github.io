@@ -1,0 +1,22 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: FluffyChat
+  img: images/fluffychat.png
+  repo: https://fluffychat.im
+  desc: Matrix Messenger for Android, iOS, Web and Desktop built with <a href="https://flutter.dev">Flutter</a> and <a href="https://dart.dev">Dart</a>.
+
+- name: Famedly
+  img: images/famedly.png
+  repo: https://famedly.com
+  desc: Communication app for german health care organisations built with <a href="https://flutter.dev">Flutter</a> and <a href="https://dart.dev">Dart</a>, where I am involved as one of the lead developers.
+
+- name: Several Ubuntu Touch Apps
+  repo: https://open-store.io/?sort=relevance&search=author%3AChristian%20Pauly
+  img: images/openstore.svg
+  desc: Several Ubuntu Touch apps built with Qml and JavaScript, including a Qml version of <a href="https://open-store.io/app/fluffychat.christianpauly">FluffyChat</a>, a <a href="https://open-store.io/app/jotit.christianpauly">Nextcloud Notes client</a> and a <a href="https://open-store.io/app/flashcards.christianpauly">flashcards app</a>. Currently I'm no longer developing for Ubuntu Touch and focus more on Flutter/Dart.
+
+- name: "Stigma: Angst"
+  repo: https://www.epubli.de/shop/autor/Christian-Pauly/34198
+  img: images/stigmaangst.png
+  desc: (GER) In meiner Freizeit schreibe ich an meinen Horror-Romanen über Angststörungen und mysteriöse Ereignisse und Katastrophen, die 2020 über Deutschland hereinziehen.<br/>Die Romanreihe veröffentliche ich als Bücher und E-Books beim <a href="https://epubli.de">Epubli Verlag</a>.

@@ -1,18 +1,36 @@
 # Site settings
-title: Christian Pauly - Personal Website
-description: Welcome on my website.
-baseurl: "/"
-url: "/" # the base hostname & protocol for your site
-gitlab_username:  christianpauly
+title: Christian Pauly
+description: 'Personal Website'
+url: 'https://christianpauly.gitlab.io'
+baseurl: ''
+profilepic: '/images/avatar.png'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
 
-# User settings
-username: Christian Pauly
-user_description: Hi, I'm a software developer from Germany. I have a Bachelor of Applied Science in Computer Science and Mathematics and I love frontend developing for apps and webapps, RESTful APIs, open source, Linux and Matrix.
-user_title: Software Developer
-github_username:  lorem_ipsum
+author:
+  name: 'Christian Pauly'
+  email: christian-pauly@posteo.de
+  twitter_username: thomzuehlke
+#  facebook_username: joshgerdes
+  github_username:  ChristianPauly
+  linkedin_username:  thomas-zühlke-889182165
+  meetup_name: Azure-Meetup-Rostock-MV
 
-# Google-analytics
-google-analytics:
-  id: ""
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
 
-exclude: ['README.md', 'LICENSE.txt', 'package.json', 'src' , 'node_modules']
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
