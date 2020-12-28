@@ -1,5 +1,5 @@
 # Site settings
-title: Christian Pauly
+title: Krille Fear
 description: 'Personal Website'
 url: 'https://christianpauly.gitlab.io'
 baseurl: ''
@@ -9,7 +9,7 @@ google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Christian Pauly'
+  name: 'Krille Fear'
   email: christian-pauly@posteo.de
   twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
