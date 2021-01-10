@@ -16,7 +16,7 @@
   img: images/openstore.svg
   desc: Several Ubuntu Touch apps built with Qml and JavaScript, including a Qml version of <a href="https://open-store.io/app/fluffychat.christianpauly">FluffyChat</a>, a <a href="https://open-store.io/app/jotit.christianpauly">Nextcloud Notes client</a> and a <a href="https://open-store.io/app/flashcards.christianpauly">flashcards app</a>. Currently I'm no longer developing for Ubuntu Touch and focus more on Flutter/Dart.
 
-- name: "Stigma: Angst"
-  repo: https://www.epubli.de/shop/autor/Christian-Pauly/34198
+- name: "Romane"
+  repo: https://www.epubli.de/shop/autor/Krille-Fear/36030
   img: images/stigmaangst.png
-  desc: (GER) In meiner Freizeit schreibe ich an meinen Horror-Romanen über Angststörungen und mysteriöse Ereignisse und Katastrophen, die 2020 über Deutschland hereinziehen.<br/>Die Romanreihe veröffentliche ich als Bücher und E-Books beim <a href="https://epubli.de">Epubli Verlag</a>.
+  desc: (GER) In meiner Freizeit schreibe ich Mystery-Romane.<br/>Die Romanreihe veröffentliche ich als Bücher und E-Books beim <a href="https://epubli.de">Epubli Verlag</a>.
