@@ -1,8 +1,4 @@
-image: ruby:2.3
-
-variables:
-  JEKYLL_ENV: production
-  LC_ALL: C.UTF-8
+image: alpine:latest
 
 pages:
   stage: deploy
