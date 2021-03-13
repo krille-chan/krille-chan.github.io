@@ -1,37 +1,61 @@
----
-layout: default
-robots: noindex
----
+<!DOCTYPE html>
+<html lang="en">
+<html>
 
-<!--<div class="main-post-list">-->
+<head>
+    <meta charset="utf-8">
+    <title>Krille Fear Official Website</title>
+    <meta name="identifier-url" content="https://krillefear.gitlab.io" />
+    <meta name="title" content="Krille Fear Official Website" />
+    <meta name="description" content="Coder and fulltime-nerd" />
+    <meta name="abstract" content="Coder and fulltime-nerd" />
+    <meta name="keywords" content="developer, coder, fluffychat, stigmaangst, webcomic, manga, writer" />
+    <meta name="author" content="Krille Fear" />
+    <meta name="revisit-after" content="15" />
+    <meta name="language" content="EN" />
+    <meta name="robots" content="All" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <ul class="timeline">
-    
-    {% for project in site.data.projects %}
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4><a href="{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
-          </div>
-          <div class="timeline-body">
-            {{ project.desc | markdownify }}
-            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
-              <div style="height: 10px;"></div>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
-      </div>
-    </li> -->
-  </ul>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
-<!--</div>-->
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <br /><br />
+        <h1>Krille Fear</h1>
+        <img src="https://metalhead.club/system/accounts/avatars/000/020/392/original/f7fae8ccfe00f781.png"
+            style="width:100px; height:100px; border-radius: 100px;" />
+        <br /><br />
+        <p>Hey there! I'm Krille and I create some stuff that I would like to share with you.</p>
+        <hr />
+        <h2>Social Media:</h2>
+        <a class="button button-outline" rel="me" href="https://metalhead.club/@krille" target="new">Mastodon</a>
+        <a class="button button-outline" href="https://matrix.to/#/@krille:janian.de" target="new">Matrix</a>
+        <a class="button button-outline" href="https://twitter.com/FearKrille" target="new">Twitter</a>
+        <a class="button button-outline" href="https://ko-fi.com/krille/posts" target="new">Blog</a>
+        <br /><br />
+        <h2>Coding:</h2>
+        <a class="button button-outline" href="https://gitlab.com/KrilleFear" target="new">GitLab</a>
+        <a class="button button-outline" href="https://fluffychat.im" target="new">FluffyChat</a>
+        <br /><br />
+        <h2>Art:</h2>
+        <a class="button button-outline" href="https://ko-fi.com/krille/gallery" target="new">Webcomics</a>
+        <a class="button button-outline" href="https://www.epubli.de/shop/autor/Krille-Fear/36030"
+            target="new">Novels</a>
+        <br /><br />
+        <hr />
+        <h2>Microblog</h2>
+        <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="100%" height="800"
+            src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmetalhead.club%2Fusers%2Fkrille&theme=light&size=100&header=true&replies=true&boosts=true"></iframe>
+    </div>
+</body>
+
+</html>

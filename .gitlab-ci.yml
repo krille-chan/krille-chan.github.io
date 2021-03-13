@@ -4,23 +4,11 @@ variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
-before_script:
-  - bundle install
-
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
-
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - mkdir public
+  - mv ./index.html ./public/
   artifacts:
     paths:
     - public
