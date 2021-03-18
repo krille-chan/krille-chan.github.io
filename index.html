@@ -25,6 +25,11 @@
     <!-- Milligram CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
+    <!-- Cactus Comments -->
+    <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+    <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+
+
 </head>
 
 <body>
@@ -52,9 +57,17 @@
             target="new">Novels</a>
         <br /><br />
         <hr />
-        <h2>Microblog</h2>
-        <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="100%" height="800"
-            src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmetalhead.club%2Fusers%2Fkrille&theme=light&size=100&header=true&replies=true&boosts=true"></iframe>
+        <h2>Comments</h2>
+        <div id="comment-section"></div>
+        <script>
+        initComments({
+            node: document.getElementById("comment-section"),
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+            serverName: "cactus.chat",
+            siteName: "krillefear.gitlab.io",
+            commentSectionId: "section1"
+        })
+        </script>
     </div>
 </body>
 
