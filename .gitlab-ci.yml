@@ -1,9 +1,10 @@
-image: alpine:latest
+image: node
 
 pages:
   stage: deploy
   script:
   - mkdir public
+  - npx tailwindcss -o ./public/tailwind.css
   - mv ./index.html ./public/
   artifacts:
     paths:
