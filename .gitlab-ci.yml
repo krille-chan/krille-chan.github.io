@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
   - mkdir public
-  - npx tailwindcss -o ./public/tailwind.css
+  - npx tailwindcss -o ./public/tailwind.css --minify
   - mv ./index.html ./public/
   artifacts:
     paths:
