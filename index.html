@@ -45,16 +45,18 @@
 
         <hr class="my-8" />
         <h2 class="text-4xl py-8">Comments</h2>
-        <div id="comment-section"></div>
-        <script>
-            initComments({
-                node: document.getElementById("comment-section"),
-                defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
-                serverName: "cactus.chat",
-                siteName: "krillefear.gitlab.io",
-                commentSectionId: "section1"
-            })
-        </script>
+        <div class="text-left">
+            <div id="comment-section"></div>
+            <script>
+                initComments({
+                    node: document.getElementById("comment-section"),
+                    defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+                    serverName: "cactus.chat",
+                    siteName: "krillefear.gitlab.io",
+                    commentSectionId: "section1"
+                })
+            </script>
+        </div>
     </div>
 </body>
 
